@@ -6,3 +6,9 @@ eureka:
   client:
     service-url:
        defaultZone: http://wosz:147258369@localhost:9600/eureka/
+management:
+ endpoints:
+   web:
+     exposure:
+       include: refresh,health,info      
+       
