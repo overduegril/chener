@@ -1,2 +1,8 @@
 server:
   port: 9602
+  application:
+    name: configClient
+eureka:
+  client:
+    service-url:
+       defaultZone: http://wosz:147258369@localhost:9600/eureka/
