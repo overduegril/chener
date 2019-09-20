@@ -1,0 +1,6 @@
+<view class="container">
+  <image src="{{classicImage}}" class="classic-img {{playing?'rotation':''}}" />
+  <image class='musicIcon' src="{{musicIcon}}" /> 
+  <image class="playerImage" bind:tap = "onPlay" src="{{playing?playingUrl:waittingUrl}}" />
+  <text class="content">{{classicContent}}</text>
+</view>

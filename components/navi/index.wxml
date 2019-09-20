@@ -1,0 +1,6 @@
+<!--components/navi/index.wxml-->
+<view class="container">
+  <image bind:tap='getPreviousClassic' class="leftIcon" src="{{previousImage}}"></image>
+    <text class="text">{{classicTag}}</text>
+  <image bind:tap='getNextClassic' class="rightIcon" src="{{nextImage}}"></image>
+</view>

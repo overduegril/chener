@@ -1,0 +1,54 @@
+/* components/periode/index.wxss */
+.container{
+  display:inline-flex;
+  flex-direction: row;
+  line-height: 60rpx;
+  /* justify-content: flex-end;  */
+  /* align-items: baseline; */
+  margin-left: 24rpx      
+}
+
+.index-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.plain{
+  font-size:32rpx;
+}
+
+.issuing{
+  font-size:60rpx;
+  line-height:60rpx; 
+  font-weight:700;
+  margin-right:10rpx;
+}
+
+.line{
+  margin-bottom: 2rpx;
+  margin-right:10rpx;
+  height:45rpx;
+  border-left:1px solid black;
+}
+
+.date-container{
+  display: flex;
+  flex-direction: column;
+  /* height: 40rpx; */
+  margin-top: 5rpx;
+}
+
+.month{
+  font-size:24rpx;
+  line-height:24rpx; 
+  padding-bottom: 1rpx; 
+  margin-top:4rpx;
+  /* padding-right:4rpx; */
+}
+
+.year{
+  font-size:20rpx;
+  line-height:12px; 
+  /* padding-bottom:3px;  */
+}

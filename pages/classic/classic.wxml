@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='header'>
+    <s-periode class="epsoide" classicIndex="{{classicIndex}}" />
+    <view>
+      <s-like bind:like="onLike" count="{{favNum}}" />
+    </view>
+  </view>
+  <!-- <s-music img="{{classic.image}}" content="{{classic.content}}" src="{{classic.url}}" title="{{classic.title}}" /> -->
+  <s-music wx:if="{{classicType==3}}" classicImage="{{classicImage}}" classicContent="{{classicContent}}" classicMusicUrl = "{{classicMusicUrl}}"/>
+  <s-essay wx:if="{{classicType==2}}" classicImage="{{classicImage}}" classicContent="{{classicContent}}" />
+  <s-movie wx:if="{{classicType==1}}" classicImage="{{classicImage}}" classicContent="{{classicContent}}" />
+  <s-navi class="navi"  bind:getNextClassic="getNextClassic" bind:getPreviousClassic="getPreviousClassic" classicTag="{{classicTag}}" classicIndex="{{classicIndex}}" />
+</view>

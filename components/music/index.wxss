@@ -1,0 +1,68 @@
+/* components/music/index.wxss */
+.container{
+  width: 100%;
+  padding: 0rpx;
+  margin: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classic-img {
+  width: 460rpx;
+  height: 460rpx;
+  margin-top: 40rpx;
+  /* margin-bottom: 120rpx; */
+  border-radius: 50%;
+  /* margin-bottom: -50px; */
+  overflow: hidden;
+}
+
+.posterImage { 
+  width: 750rpx;
+  height: 500rpx;
+}
+
+
+.playerImage {
+  width: 120rpx;
+  height: 120rpx;
+  position: relative; 
+  bottom: 435rpx; 
+}
+
+.musicIcon {
+  width: 46rpx;
+  height: 142rpx;
+  position: relative;
+  bottom: 58rpx;
+  right:310rpx;
+}
+
+.content{
+  display:block;
+  /* width:275px; */
+  /* margin:0 auto; */
+  max-width:550rpx;
+  font-size:32rpx;
+  position: relative;
+  bottom: 118rpx;
+}
+
+.rotation {
+  -webkit-transform: rotate(360deg);
+  animation: rotation 12s linear infinite;
+  -moz-animation: rotation 12s linear infinite;
+  -webkit-animation: rotation 12s linear infinite;
+  -o-animation: rotation 12s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}

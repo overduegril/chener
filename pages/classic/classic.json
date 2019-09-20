@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "s-like": "/components/like/index",
+    "s-movie": "/components/movie/index",
+    "s-periode": "/components/periode/index",
+    "s-navi": "/components/navi/index",
+    "s-essay": "/components/essay/index",
+    "s-music": "/components/music/index"
+  }
+}

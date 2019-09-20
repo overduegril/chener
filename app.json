@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/book/book",
+    "pages/my/my"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "芒果酸奶",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "borderStyle": "black",
+      "selectedColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "color": "#c7c7c7",
+    "list": [
+      {
+        "pagePath": "pages/classic/classic",
+        "selectedIconPath": "/images/classic@highlight.png",
+        "iconPath": "/images/classic.png",
+        "text": "流行"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "selectedIconPath": "/images/book@highlight.png",
+        "iconPath": "/images/book.png",
+        "text": "书单"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "/images/my@highlight.png",
+        "iconPath": "/images/my.png",
+        "text": "喜欢"
+      }
+    ]
+  }
+}

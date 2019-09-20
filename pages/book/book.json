@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "s-book": "/components/book/index",
+      "s-like": "/components/like/index"
+  }
+}
